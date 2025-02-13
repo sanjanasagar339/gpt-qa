@@ -10,7 +10,7 @@ const App = () => {
 
   // Fetch quiz data from the API
   useEffect(() => {
-    fetch("http://localhost:5000/api/questions") // Ensure this URL matches your backend endpoint
+    fetch("https://gpt-q.onrender.com/api/questions") // Ensure this URL matches your backend endpoint
       .then((response) => {
         if (!response.ok) {
           throw new Error("Failed to fetch quiz data");
