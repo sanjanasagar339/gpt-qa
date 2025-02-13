@@ -1,0 +1,23 @@
+.App {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .question {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .options button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .feedback {
+    margin-top: 20px;
+    font-size: 20px;
+    color: green;
+  }
+  
